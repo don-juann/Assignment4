@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career</title>
+    <link rel="icon" href="src/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c98d165499.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="scrollTop" onclick="scrollToTop()" style="z-index: 99">Top</div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark px-3 py-3">
+      <div class="container-fluid">
+        <img width="50" height="50" src="src/ds.png" alt="dslogo" />
+        <h2 style="font-family: googlefont">DataScience</h2>
+
+        <button
+          class="navbar-toggler bg-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <button class="btn btn-outline-dark rounded-4">
+                <a class="nav-link text-black" href="index.html">Main</a>
+              </button>
+            </li>
+            <li class="nav-item mx-2">
+              <button class="btn btn-dark rounded-4">
+                <a class="nav-link text-white" href="#">Career</a>
+              </button>
+            </li>
+            <li class="nav-item mx-2">
+              <button class="btn btn-outline-dark rounded-4">
+                <a class="nav-link text-black" href="about.html">About</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="paper-plane"></div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div
+      class="home container-fluid py-5 d-flex align-items-center justify-content-center flex-column"
+    >
+      <h1>Advice For The People Who Want To Become Data Scientist:</h1>
+      <button
+        type="button"
+        onclick="playAudio()"
+        style="height: 80px; width: 300px"
+        class="rounded-5"
+      >
+        <h3>Play Advice</h3>
+      </button>
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div class="home container-fluid py-4">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-5 py-3">
+          <div class="bg-dark text-white p-4 rounded-5">
+            <h1>How much does Data Scientist earn?</h1>
+            <h3>A lot of money. A lots of money.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              doloribus adipisci incidunt quidem dolor ea facilis harum velit,
+              inventore, iste similique laboriosam maxime? Rem beatae, labore
+              alias qui quibusdam minus veritatis doloremque consectetur quam
+              aut soluta in eos molestiae accusantium fugit tempora nam hic
+              aspernatur?
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-5 py-3">
+          <img
+            class="rounded-3"
+            width="100%"
+            src="src/salaries.jpg"
+            alt="salaries"
+          />
+        </div>
+
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div class="home container-fluid py-4">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-5 py-3">
+          <img
+            class="rounded-3"
+            width="100%"
+            src="src/salary.jpg"
+            alt="salaries"
+          />
+        </div>
+
+        <div class="col-lg-5 py-3">
+          <div class="bg-dark text-white p-4 rounded-5">
+            <h1>Data Scientist Salary</h1>
+            <h3>Across The Globe.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              doloribus adipisci incidunt quidem dolor ea facilis harum velit,
+              inventore, iste similique laboriosam maxime? Rem beatae, labore
+              alias qui quibusdam minus veritatis doloremque consectetur quam
+              aut soluta in eos molestiae accusantium fugit tempora nam hic
+              aspernatur?
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">
+        <i class="fa fa-quote-left fa-pull-center fa-border bg-dark"></i>
+        All Rights Reserved. No Copyright Allowed.
+        <button
+          type="button"
+          id="getUrlButton"
+          onclick="getCurrentURL()"
+          class="border-0 rounded-2"
+        >
+          Get Link
+        </button>
+      </h1>
+      <br />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

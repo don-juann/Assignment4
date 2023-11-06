@@ -1,0 +1,63 @@
+@font-face {
+    font-family: googlefont;
+    src: url(src/Varela-Regular.ttf);
+  }
+
+
+.scrollTop {
+ display: none;
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+ padding: 10px 15px;
+ background-color: #404040;
+ color: white;
+ border-radius: 15px;
+ cursor: pointer;
+ transition: background-color 0.3s, color 0.3s, display 0.3s;
+ border: 2px solid white;
+}
+
+nav {
+    background-color: #f2c744;
+}
+
+.thecard{
+    background-color: #f2c744;
+}
+
+.home {
+    background-color: #e5e5f7;
+    background-image: linear-gradient(0deg, #f2c744 50%, #f2b749 50%);
+    background-size: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.picker {
+    background-color: #e5e5f7;
+    background-image: linear-gradient(0deg, #f2c744 50%, #f2b749 50%);
+    background-size: 10px 10px;
+}
+
+#paper-plane {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('src/paper-plane.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 2s linear;
+}
+
+.interval {
+    background-color: #404040;
+}
+
+.fillform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #404040;
+    border-radius: 10px;
+}

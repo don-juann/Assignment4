@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="icon" href="src/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c98d165499.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="scrollTop" onclick="scrollToTop()" style="z-index: 99">Top</div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark px-3 py-3">
+      <div class="container-fluid">
+        <img width="50" height="50" src="src/ds.png" alt="dslogo" />
+        <h2 style="font-family: googlefont">DataScience</h2>
+
+        <button
+          class="navbar-toggler bg-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <button class="btn btn-dark rounded-4">
+                <a class="nav-link text-white" href="#">Main</a>
+              </button>
+            </li>
+            <li class="nav-item mx-2">
+              <button class="btn btn-outline-dark rounded-4 nav_btn">
+                <a class="nav-link text-black" href="career.html">Career</a>
+              </button>
+            </li>
+            <li class="nav-item mx-2">
+              <button class="btn btn-outline-dark rounded-4">
+                <a class="nav-link text-black" href="about.html">About</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="paper-plane"></div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div class="home container-fluid py-4">
+      <div class="bg-dark text-white p-4 rounded-5" style="width: 60%">
+        <h1>What Is Data Science?</h1>
+        <h3>Ranked among the top jobs</h3>
+        <p>
+          Data science combines math and statistics, specialized programming,
+          advanced analytics, artificial intelligence (AI), and machine learning
+          with specific subject matter expertise to uncover actionable insights
+          hidden in an organization’s data. These insights can be used to guide
+          decision making and strategic planning.
+        </p>
+      </div>
+    </div>
+
+    <div class="home container-fluid py-4">
+      <img
+        class="rounded-5"
+        width="60%"
+        src="src/dslogo.webp"
+        alt="datasciencelogo"
+      />
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div class="home container-fluid py-4">
+      <div class="bg-dark text-white p-4 rounded-5" style="width: 60%">
+        <h1>Data Science</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi earum
+          recusandae ipsam iste excepturi vero aperiam! Deserunt nemo quibusdam
+          veniam laudantium quam libero assumenda dolorem, cumque porro,
+          expedita, odit dolor! Corrupti consequatur voluptatem similique
+          voluptate!
+        </p>
+      </div>
+    </div>
+
+    <div class="home container-fluid py-4">
+      <img
+        class="rounded-5"
+        width="60%"
+        src="src/origin.jpg"
+        alt="datascienceprocess"
+      />
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">Data Science</h1>
+      <br />
+    </div>
+
+    <div class="home container-fluid py-4">
+      <div class="bg-dark text-white p-4 rounded-5" style="width: 60%">
+        <h1>Data Science</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi earum
+          recusandae ipsam iste excepturi vero aperiam! Deserunt nemo quibusdam
+          veniam laudantium quam libero assumenda dolorem, cumque porro,
+          expedita, odit dolor! Corrupti consequatur voluptatem similique
+          voluptate!
+        </p>
+      </div>
+    </div>
+
+    <div class="home container-fluid py-4">
+      <img
+        class="rounded-5"
+        width="60%"
+        src="src/skills.webp"
+        alt="datascienceprocess"
+      />
+    </div>
+
+    <div class="home">
+      <div class="bg-dark p-5 my-4 rounded-5 text-white" style="width: 75%">
+        <h2 class="text-warning">Leave Your Contacts For Consulting:</h2>
+        <div>
+          <form>
+            <label>Name:</label>
+            <input
+              id="name"
+              class="fillform p-1"
+              type="text"
+              placeholder="John Doe"
+            /><br />
+            <h3 id="thename"></h3>
+            <label>E-Mail:</label>
+            <input
+              id="email"
+              class="fillform p-1"
+              type="email"
+              placeholder="johndoe@gmail.com"
+            /><br />
+            <h3 id="theemail"></h3>
+            <label>Phone:</label>
+            <input
+              id="phone"
+              class="fillform p-1"
+              type="number"
+              placeholder="8-XXX-XXX-XX-XX"
+            /><br />
+            <h3 id="thephone"></h3>
+            <button id="thebutton" type="button" class="p-2 rounded-3 border-0">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="interval">
+      <br />
+      <h1 class="text-center text-white">
+        <i class="fa fa-quote-left fa-pull-center fa-border bg-dark"></i>
+        All Rights Reserved. No Copyright Allowed.
+        <button
+          type="button"
+          id="getUrlButton"
+          onclick="getCurrentURL()"
+          class="border-0 rounded-2"
+        >
+          Get Link
+        </button>
+      </h1>
+      <br />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
